@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>calculator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="calculator">
+      <input id="display" readonly>
+      <div id = "keys">
+        <button onlick="appendToDisplay('+')" class="operater-btn">+</button>
+        <button onlick="appendToDisplay('7')">7</button>
+        <button onlick="appendToDisplay('8')">8</button>
+        <button onlick="appendToDisplay('9')">9</button>
+        <button onlick="appendToDisplay('-')" class="operater-btn">-</button>
+        <button onlick="appendToDisplay('4')">4</button>
+        <button onlick="appendToDisplay('5')">5</button>
+        <button onlick="appendToDisplay('6')">6</button>
+        <button onlick="appendToDisplay('*')" class="operater-btn">*</button>
+        <button onlick="appendToDisplay('1')">1</button>
+        <button onlick="appendToDisplay('2')">2</button>
+        <button onlick="appendToDisplay('3')">3</button>
+        <button onlick="appendToDisplay('/')" class="operater-btn">/</button>
+        <button onlick="appendToDisplay('0')">0</button>
+        <button onlick="appendToDisplay('.')">.</button>
+        <button onlick="calculate()">=</button>
+        <button onlick="clearDisplay()" class="operater-btn">C</button>
+      <div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
